@@ -1,7 +1,7 @@
 {
-    "name": "htmlburger/carbon-field-YOURFIELDNAME",
+    "name": "htmlburger/carbon-field-free-select",
     "description": "Carbon Fields extension, that adds a YOURFIELDNAME field type.",
-    "keywords": ["wordpress", "carbon-field", "carbon-field-YOURFIELDNAME"],
+    "keywords": ["wordpress", "carbon-field", "carbon-field-free-select"],
     "homepage": "http://yourhomepage.example.com",
     "type": "library",
     "license": "GPL-2.0+",
@@ -12,7 +12,7 @@
             "field.php"
         ],
         "psr-4": {
-            "Carbon_Field_YOURFIELDNAME\\": "core/"
+            "Carbon_Field_Free_Select\\": "core/"
         }
     }
 }

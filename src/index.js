@@ -7,6 +7,6 @@ import { registerFieldType } from '@carbon-fields/core';
  * Internal dependencies.
  */
 import './style.scss';
-import YourFieldNameField from './main';
+import FreeSelectField from './main';
 
-registerFieldType( 'yourfieldname', YourFieldNameField );
+registerFieldType('free_select', FreeSelectField );

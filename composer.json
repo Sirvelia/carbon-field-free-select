@@ -1,12 +1,14 @@
 {
-    "name": "htmlburger/carbon-field-free-select",
-    "description": "Carbon Fields extension, that adds a YOURFIELDNAME field type.",
+    "name": "sirvelia/carbon-field-free-select",
+    "description": "Carbon Fields extension, that adds a Free Select field type.",
     "keywords": ["wordpress", "carbon-field", "carbon-field-free-select"],
     "homepage": "http://yourhomepage.example.com",
     "type": "library",
     "license": "GPL-2.0+",
     "authors": [],
-    "require": {},
+    "require": {
+        "htmlburger/carbon-fields": "^3.0"
+    },
     "autoload": {
         "files": [
             "field.php"

@@ -1,5 +1,5 @@
 {
-  "name": "carbon-field-YOURFIELDNAME",
+  "name": "carbon-field-free-select",
   "version": "3.0.0",
   "scripts": {
     "start": "npm run development -- --watch",
@@ -24,7 +24,7 @@
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
     "mini-css-extract-plugin": "^0.4.4",
-    "node-sass": "^4.9.4",
+    "sass": "^1.77.6",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.2.0",
@@ -45,5 +45,8 @@
     "lodash": "^4.17.11",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
+  },
+  "volta": {
+    "node": "14.21.3"
   }
 }
